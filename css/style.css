@@ -1,0 +1,284 @@
+*{
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: BYekan;
+    src: url(../fonts/BYekan.eot);
+    src: url(../fonts/BYekan.woff);
+    src: url(../fonts/BYekan.ttf);
+}
+
+
+body{
+    font-family:BYekan;
+    margin: 0px;
+    padding: 0px;
+    background: url("../images/background.jpg");
+    background-attachment: fixed;
+    
+}
+nav{
+    background: white;
+    border-top: 1px solid #ebeced;
+    margin: 0 auto;
+    width: 1188px;
+    height: 50px;
+    padding-right: 15px;
+}
+
+nav ul li{
+    font-size: 14px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 10px;
+    margin-right:10px;
+    float: right;
+    display: inline;
+    text-decoration: none;
+    list-style: none;
+    transition: all linear 0.5s;
+}
+
+nav ul li a:hover{
+    color: #808080;
+}
+
+header{
+    padding-top: 5px;
+    border-top: 1px solid #ebeced;
+    margin: 0 auto;
+    width: 1190px;
+    height: 310px;
+}
+
+
+#slideshow{
+    float: right;
+    border: 1px solid #ebeced;
+    border-radius: 2px;
+    width: 890px;
+    height: 310px;
+    background: url("../images/Slide01.jpg");
+    margin-bottom: 5px;
+}
+
+
+#mainnote{
+    float: left;
+    border: 1px solid #ebeced;
+    border-radius: 2px;
+    width: 290px;
+    height: 310px;
+}
+
+.notes{
+    direction: rtl;
+    font-size: 13px;
+    padding: 5px;
+    width: 99%;
+    height: 32%;
+    background: white;
+}
+.notes:nth-of-type(2){
+    margin:2px 0;
+}
+
+#searchbar{
+    margin-top: 50px;
+    clear: both;
+    width: 1190px;
+    height: 39px;
+    border: 1px solid #ebeced;
+    border-radius: 2px;
+    background: white;
+}
+#search{
+    font-family: IranianSans;
+    direction: rtl;
+    padding: 5px;
+    float: right;
+    margin-top:1px;
+    width: 483px;
+    border: 1px solid #c9d1d7;
+    height: 35px;
+    border-radius: 2px;
+}
+#searchbtn{
+    background: #808080;
+    color:white;
+    text-align: center;
+    padding-top:7px;
+    float: right;
+    margin-top:1px;
+    width: 100px;
+    border: 1px solid #c9d1d7;
+    height: 35px;
+    border-radius: 2px;
+}
+
+#shoppingbasket{
+    background: #4caf50;
+    color:white;
+    text-align: center;
+    padding-top:7px;
+    float: left;
+    margin-top:1px;
+    width: 100px;
+    border: 1px solid #c9d1d7;
+    height: 35px;
+    border-radius: 2px;
+}
+
+#shoppingbasketicon{
+    float: left;
+    background: url("../images/shoppingbasketEmpty.png") no-repeat #62b965;
+    background-position: center;
+    width: 54px;
+    height: 35px;
+    margin-top:1px;
+    border: 1px solid #c9d1d7;
+}
+#register{
+    direction: rtl;
+    margin: 10px 10px;
+    float: left;
+}
+
+#register img{
+    margin-left:5px;
+}
+#login{
+    direction: rtl;
+    margin: 10px 20px;
+    float: left;
+}
+#login img{
+    margin-left:5px;
+}
+main{
+    clear: both;
+    margin: 0 auto;
+    width: 1190px;  
+    height: auto;
+    margin-top: 60px;
+}
+
+#mostsell{
+    text-align: center;
+    border-radius: 2px;
+    border: 1px solid #ebeced;
+    margin: 0 auto;
+    width: 100%;
+    background: white;
+    height: 300px;
+}
+
+.mostheader{
+    color: white;
+    text-align: right;
+    padding: 6px;
+    margin: 0 0;
+    background: #808080;
+    height: 35px;
+    width: 100%;
+}
+
+.items{
+    display: inline-block;
+    width: 260px;
+    height: 260px;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+    direction: rtl;
+}
+
+.itemimg{
+    margin-top:5px;
+    border-bottom: 1px solid #4caf50;
+    clear: both;
+}
+
+.price{
+    font-size:13px;
+    position: absolute;
+    bottom: 6px;
+    margin-right:40%;
+    color: #4caf50;
+    font-weight: bold;
+}
+
+.itemshortdescription{
+    font-size:12px;
+    
+}
+
+#mostpopular{
+    text-align: center;
+    border-radius: 2px;
+    border: 1px solid #ebeced;
+    margin: 0 auto;
+    width: 100%;
+    background: white;
+    height: 300px;
+}
+
+#introduction{
+    clear: both;
+    text-align: center;
+    border-radius: 2px;
+    border: 1px solid #ebeced;
+    margin: 0 auto;
+    width: 100%;
+    background: white;
+    height: 300px;
+}
+#introduction{
+    padding: 5px;
+}
+#logoes{
+    float: right;
+    width: 150px;
+}
+#introductiontext{
+    color:#575757;
+    padding: 5px;
+    line-height: 2em;
+    text-align: justify;
+    direction: rtl;
+    font-size: 13.5px;
+}
+
+footer{
+    clear: both;
+    border-top: 5px solid #77a532;
+    background: #fff;
+    width: 100%;
+    height: 100px;
+}
+
+#innerfooter{
+    direction: rtl;
+    margin: 5px auto;
+    width: 1190px;
+}
+
+#footermenu ul li{
+    font-size: 13px;
+    border-left:1px solid #808080;
+    padding-left: 5px;
+    margin-left: 5px;
+    float: right;
+    display: inline;
+    text-decoration: none;
+    list-style: none;
+}
+
+#socialicon{
+    text-align: left;
+    direction: ltr;
+    font-size: 10px;
+    float: left;
+}
